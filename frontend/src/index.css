@@ -1,0 +1,72 @@
+.container {
+  max-width: 1200rem;
+  margin: 0 auto;
+  padding: 22rem;
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align content to the top */
+  align-items: center;
+  height: 100vh;
+}
+
+
+h1 {
+  text-align: left;
+  color: #000000;
+  size: 50px;
+}
+
+.input-group {
+  margin-bottom: 20rem;
+}
+
+.input-group input {
+  width: calc(100% - 10px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ede8e8;
+  border-radius: 5px;
+}
+
+.input-group button {
+  width: calc(100% - 10px);
+  padding: 10px;
+  background-color: #ff69b4; /* Pink color */
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+.card {
+  background-color: #faf5f5;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.card p {
+  color: #666;
+}
+
+.card-buttons button {
+  margin-right: 10px;
+}
+
+.delete-button {
+  background-color: #dc3545;
+}
+
+.edit-button {
+  background-color: #28a745;
+}
+
